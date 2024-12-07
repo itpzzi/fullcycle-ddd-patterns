@@ -92,7 +92,7 @@ describe("Product repository test", () => {
     const foundProducts = await productRepository.findAll();
     const products = [product, product2];
 
-    expect(products).toEqual(foundProducts);    
+    expect(products).toEqual(foundProducts);
   });
-  
+
 });
